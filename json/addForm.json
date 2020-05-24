@@ -1,0 +1,52 @@
+{
+   
+    "title": "",
+    "theme": {
+        "href": "https://api.typeform.com/themes/TSYAuE"
+    },
+    "workspace": {
+        "href": "https://api.typeform.com/workspaces/iy79L5"
+    },
+    "settings": {
+        "is_public": true,
+        "is_trial": false,
+        "language": "es",
+        "progress_bar": "proportion",
+        "show_progress_bar": true,
+        "show_typeform_branding": true,
+        "meta": {
+            "allow_indexing": false
+        }
+    },
+    "welcome_screens":[
+        {
+            "ref":"default_red",
+            "title":""
+        }
+
+
+    ],
+    "thankyou_screens": [
+        {
+            "ref": "default_tys",
+            "title": "Thanks",
+           
+            "attachment": {
+                "type": "image",
+                "href": "https://images.typeform.com/images/2dpnUBBkz2VN"
+            }
+        }
+    ],
+    "_links": {
+        "display": "https://alexsr94.typeform.com/to/YXii0s"
+    },
+    "fields":[{
+        "title":"",
+        "type":"short_text",
+        "properties":{
+            "description":""}
+        }
+        ]
+    
+    
+}

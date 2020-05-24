@@ -9,7 +9,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/add.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -21,24 +21,25 @@
   </head>
 
   <body>
-    <div class="container-fluid container-lg">
-      <div class="row main-header">
-        <div class="col"></div>
-      </div>
-      <table class="table table-dark table-striped">
-        <tr>
-          <th>Title</th>
-          <th>href</th>
-          <th>Last update</th>
-          <th>Responses</th>
-          <th>Actions</th>
-        </tr>
-        <tbody id="tbody"></tbody>
-      </table>
+    <h1>Create a Form</h1>
+    <div class="container">
+      <form>
+        <label for="title">Form title</label>
+        <input type="text" name="title" id="title" class="form-control" />
+        <label for="href">Welcome title</label>
+        <input type="text" name="href" id="welcomeTitle" class="form-control" />
+        <label for="field">Field title</label>
+        <input type="text" name="field" id="field" class="form-control" />
+        <label for="description">Description</label>
+        <input
+          type="text"
+          name="description"
+          id="description"
+          class="form-control"
+        />
+        <input type="button" id="POST" value="Create" />
+      </form>
     </div>
-    <button onclick="window.location.href='/pages/add.html'">
-      Add new form
-    </button>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -57,6 +58,6 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-    <script src="/js/main.js"></script>
+    <script src="../js/add.js"></script>
   </body>
 </html>
